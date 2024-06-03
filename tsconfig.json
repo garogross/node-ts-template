@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",           // Specify ECMAScript target version
+    "module": "es2020",           // Specify module code generation
+    "moduleResolution": "node",   // Use Node module resolution
+    "strict": true,               // Enable all strict type-checking options
+    "esModuleInterop": true,      // Enable compatibility with CommonJS modules
+    "skipLibCheck": true,         // Skip type checking of declaration files
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased imports
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "outDir": "./dist",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
